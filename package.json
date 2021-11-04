@@ -1,0 +1,23 @@
+{
+  "name": "midterm-iii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeroVlz/MIDTERM-III.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeroVlz/MIDTERM-III/issues"
+  },
+  "homepage": "https://github.com/WeroVlz/MIDTERM-III#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
