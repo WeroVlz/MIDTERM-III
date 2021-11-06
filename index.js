@@ -1,6 +1,8 @@
 const express = require("express");
 const https = require("https");
 const fs = require("fs");
+var bodyParser = require('body-parser');
+const request = require("request");
 var jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const { window } = new JSDOM();
@@ -125,10 +127,8 @@ app.post('/', (req,res) => {
     }).end();
 });
 
-app.get('/id', (req,res) =>{
-    const heroID = req.query.id;
-
-    console.log(heroID);
+app.get('/navigate.html', function(req,res){
+     console.log(req.query.id);
 });
 
 

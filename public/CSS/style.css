@@ -179,3 +179,8 @@ body{
     border-color: rgb(255, 174, 0);
     color: black;
 }
+
+.npb:focus{
+    box-shadow: 0 0 10px rgb(255, 174, 0);
+    border-color: rgb(255, 174, 0);
+}
