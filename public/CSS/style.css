@@ -66,10 +66,116 @@ body{
     width: 220px;
     margin: auto;
     position: relative;
-    bottom: -200px;
+    bottom: -130px;
     left: 440px;
 }
 
+.photostats{
+    width: 270px;
+    height: 450px;
+    background-color: gray;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
 .jc{
     padding: 7%;
+}
+
+#image>img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 225px;
+    
+}
+
+#powerstats{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#stat-names{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-right: 10px;
+}
+
+#stat-bars{
+    width: 80%;
+}
+
+.bar-container{
+    background-color: rgba(0, 0, 0, 0);
+    width: 90%;
+    padding: 5px;
+}
+
+.bar{
+    background-color: rgb(255, 174, 0);
+    border-radius: 7px;
+    padding: 10px;
+    transition-duration: 600ms;
+    height: 10px;
+
+}
+
+#stat-names span{
+    display: block;
+    padding: 3px;
+    font-weight: bold;
+}
+
+#stats-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+
+.detail-item{
+    position: relative;
+    left: 10px;
+    bottom: -5px;
+}
+
+ .info{
+    position: relative;
+    right: -320px;
+    top: -450px;
+    max-width: 70%;
+} 
+
+#result-container{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.hname{
+    font-size: 50px;
+}
+
+.npb{
+    width: 150px;
+    border-color: white;
+    color: white;
+}
+
+.p{
+    position: relative;
+    left: -20px;
+}
+
+.npb:hover{
+    background-color: rgb(255, 174, 0);
+    border-color: rgb(255, 174, 0);
+    color: black;
 }
